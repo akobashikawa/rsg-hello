@@ -1,5 +1,5 @@
-# Hello Props Again
+# Hello State
 
 Print Hello.
 
-Using props of a Component class.
+Using state of a Component class.
