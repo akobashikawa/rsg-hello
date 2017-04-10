@@ -6,6 +6,12 @@ class Hello extends Component {
 		this.state = {
 			greeting: 'Hello'
 		};
+
+		this.onChangeHandler = this.onChangeHandler.bind(this);
+	}
+
+	onChangeHandler(event) {
+		this.setState({greeting: event.target.value});
 	}
 
 	render() {
@@ -15,7 +21,7 @@ class Hello extends Component {
 					state.greeting: 
 					<input type="text"
 						value={this.state.greeting}
-						onChange={event => this.setState({greeting: event.target.value})}/>
+						onChange={this.onChangeHandler}/>
 				</div>
 				<hr/>
 				<div>{this.state.greeting} {this.props.name}!</div>
