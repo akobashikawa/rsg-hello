@@ -5,3 +5,7 @@ Print Hello.
 Using a simple component.
 
 Component in the same file.
+
+---
+
+Simple component returns JSX.
