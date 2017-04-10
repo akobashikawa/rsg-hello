@@ -4,6 +4,8 @@
 
 Simple Hello examples to introduce React concepts.
 
+This project has built using [create-react-app](https://github.com/facebookincubator/create-react-app)
+
 ## Instructions
 
 1. Clone repository
@@ -22,6 +24,7 @@ $ git checkout 01-hello-world
 ## Branches
 
 - [master](https://github.com/akobashikawa/rsg-hello)
+- [00-initial](https://github.com/akobashikawa/rsg-hello/tree/00-initial)
 - [01-hello-world](https://github.com/akobashikawa/rsg-hello/tree/01-hello-world)
 - [02-hello-component](https://github.com/akobashikawa/rsg-hello/tree/02-hello-component)
 - [03-hello-component-imported](https://github.com/akobashikawa/rsg-hello/tree/03-hello-component-imported)
