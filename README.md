@@ -2,6 +2,6 @@
 
 Print Hello.
 
-Using a sub component.
+Using a simple sub component.
 
 Component in the same file.
