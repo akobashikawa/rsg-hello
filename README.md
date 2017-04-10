@@ -1,7 +1,5 @@
-# Hello Sub Component
+# Hello Props
 
 Print Hello.
 
-Using a simple sub component.
-
-Component imported.
+Using props of a simple component.

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Hello = () => (
-	<div>Hello Sub Component!</div>
+const Hello = (props) => (
+	<div>Hello {props.name}!</div>
 );
 
 export default Hello;
