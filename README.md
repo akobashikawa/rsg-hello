@@ -7,3 +7,7 @@ Using a Component class.
 ---
 
 Component class has render() and many other useful methods.
+
+---
+
+La clase Component tiene render() y muchos otros métodos útiles.
