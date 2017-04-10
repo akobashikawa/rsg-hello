@@ -1,5 +1,5 @@
-# Hello State
+# Hello SetState
 
 Print Hello.
 
-Using state of a Component class.
+Change state of a Component class.

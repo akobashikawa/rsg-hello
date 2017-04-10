@@ -10,7 +10,16 @@ class Hello extends Component {
 
 	render() {
 		return (
-			<div>{this.state.greeting} {this.props.name}!</div>
+			<div>
+				<div>
+					state.greeting: 
+					<input type="text"
+						value={this.state.greeting}
+						onChange={event => this.setState({greeting: event.target.value})}/>
+				</div>
+				<hr/>
+				<div>{this.state.greeting} {this.props.name}!</div>
+			</div>
 		);
 	}
 }
