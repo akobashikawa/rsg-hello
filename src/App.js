@@ -5,7 +5,7 @@ import Hello from './Hello';
 class App extends Component {
 	render() {
 		return (
-			<Hello name="Props"/>
+			<Hello name="Props Again"/>
 		);
 	}
 }

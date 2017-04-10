@@ -1,5 +1,5 @@
-# Hello Props
+# Hello Props Again
 
 Print Hello.
 
-Using props of a simple component.
+Using props of a Component class.
