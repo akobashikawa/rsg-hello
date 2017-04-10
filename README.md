@@ -9,3 +9,7 @@ Component imported.
 ---
 
 A component can include other components.
+
+---
+
+Un componente puede incluir otros componentes.
