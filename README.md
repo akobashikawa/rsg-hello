@@ -1,5 +1,7 @@
-# Hello Component Class
+# Hello Sub Component
 
 Print Hello.
 
-Using a Component class.
+Using a sub component.
+
+Component in the same file.
