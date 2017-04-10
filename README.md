@@ -9,3 +9,7 @@ Component in the same file.
 ---
 
 A component can include other components.
+
+---
+
+Un componente puede incluir otros componentes.
