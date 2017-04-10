@@ -8,4 +8,8 @@ Component in the same file.
 
 ---
 
-Simple component returns JSX.
+Simple component is a function than returns JSX.
+
+---
+
+Un componente simple es una función que devuelve JSX.
