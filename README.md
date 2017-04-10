@@ -1,7 +1,5 @@
-# Hello Import
+# Hello Component Class
 
-Print Hello World.
+Print Hello.
 
-Using a simple component.
-
-Import component.
+Using a Component class.
