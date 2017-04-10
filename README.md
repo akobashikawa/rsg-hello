@@ -1,6 +1,6 @@
 # Hello Import
 
-Print Hello World.
+Print Hello.
 
 Using a simple component.
 
