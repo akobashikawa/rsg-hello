@@ -2,12 +2,12 @@
 
 Print Hello.
 
-Using a Component class.
+Using a `Component` class.
 
 ---
 
-Component class has render() and many other useful methods.
+`Component` class has `render()` and many other useful methods.
 
 ---
 
-La clase Component tiene render() y muchos otros métodos útiles.
+La clase `Component` tiene `render()` y muchos otros métodos útiles.
