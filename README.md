@@ -18,7 +18,7 @@ onChange={event => this.setState({greeting: event.target.value})}
 
 El `state` de un `Component` es cambiado mediante `setState()`.
 
-Un event handler se uede definir en línea:
+Un event handler se puede definir en línea:
 
 ```javascript
 onChange={event => this.setState({greeting: event.target.value})}
