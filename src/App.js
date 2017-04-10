@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-const Hello = () => (
-	<div>Hello Sub Component!</div>
-);
+import Hello from './Hello';
 
 class App extends Component {
 	render() {
