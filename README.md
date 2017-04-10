@@ -6,14 +6,14 @@ Simple Hello examples to introduce React concepts.
 
 ## Instructions
 
-0. Clone repository
+1. Clone repository
 
 ```bash
 $ git clone https://github.com/akobashikawa/rsg-hello.git
 $ git fetch --all
 ```
 
-0. Use checkout to change to a branch:
+2. Use checkout to change to a branch:
 
 ```bash
 $ git checkout 01-hello-world
