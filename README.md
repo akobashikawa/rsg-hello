@@ -1,44 +1,29 @@
-# Hello Handler
+# Hello Refs
 
 Print Hello.
 
-Change state of a Component class.
+Use refs to get input value.
 
 ---
 
-`Component` `state` is changed through `setState()`.
-
-An event handlers can be defined with a method:
+`Component` class has `refs` to reference html elements.
 
 ```javascript
-onChangeHandler(event) {
-	this.setState({greeting: event.target.value});
-}
+const greeting = this.refs.greeting.value;
 ```
 
-If handler require access to `state`, `props` or other Component's parts,
-it must be binded to the Component:
-
-```javascript
-this.onChangeHandler = this.onChangeHandler.bind(this);
+```html
+<input type="text"ref="greeting" />
 ```
 
 ---
 
-El `state` de un `Component` es cambiado mediante `setState()`.
-
-Un event handler se puede definir en un método:
+La clase `Component` tiene `refs` para referenciar elementos html.
 
 ```javascript
-onChangeHandler(event) {
-	this.setState({greeting: event.target.value});
-}
+const greeting = this.refs.greeting.value;
 ```
 
-Si el handler requiere acceso a `state`, `props` o alguna otra parte del Component,
-debe ser _bindeado_ al Component:
-
-```javascript
-this.onChangeHandler = this.onChangeHandler.bind(this);
+```html
+<input type="text"ref="greeting" />
 ```
-
