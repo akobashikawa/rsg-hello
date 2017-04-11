@@ -13,8 +13,10 @@ const greeting = this.refs.greeting.value;
 ```
 
 ```html
-<input type="text"ref="greeting" />
+<input type="text" ref="greeting" />
 ```
+
+NOTICE: String refs are deprecated; use callback refs instead.
 
 ---
 
@@ -25,5 +27,7 @@ const greeting = this.refs.greeting.value;
 ```
 
 ```html
-<input type="text"ref="greeting" />
+<input type="text" ref="greeting" />
 ```
+
+NOTA: Las refs con strings están desaconsejadas; usar refs con callbacks en su lugar.

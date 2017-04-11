@@ -20,7 +20,7 @@ class Hello extends Component {
 			<div>
 				<div>
 					state.greeting: 
-					<input type="text"ref="greeting" />
+					<input type="text" ref="greeting" />
 					<button onClick={this.onClickHandler}>Change greeting</button>
 				</div>
 				<hr/>
