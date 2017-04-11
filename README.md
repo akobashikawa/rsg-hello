@@ -1,33 +1,29 @@
-# Hello Refs
+# Hello Callback Refs
 
 Print Hello.
 
-Use refs to get input value.
+Use callback refs to get input value.
 
 ---
 
-`Component` class has `refs` to reference html elements.
+`Component` class has `refs` to reference html elements, and also another `Component`.
 
 ```javascript
-const greeting = this.refs.greeting.value;
+const greeting = this.greeting.value;
 ```
 
 ```html
-<input type="text" ref="greeting" />
+<input type="text" ref={input => this.greeting = input} />
 ```
-
-NOTICE: String refs are deprecated; use callback refs instead.
 
 ---
 
-La clase `Component` tiene `refs` para referenciar elementos html.
+La clase `Component` tiene `refs` para referenciar elementos html, y también otros `Component`.
 
 ```javascript
-const greeting = this.refs.greeting.value;
+const greeting = this.greeting.value;
 ```
 
 ```html
-<input type="text" ref="greeting" />
+<input type="text" ref={input => this.greeting = input} />
 ```
-
-NOTA: Las refs con strings están desaconsejadas; usar refs con callbacks en su lugar.
