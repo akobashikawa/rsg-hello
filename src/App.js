@@ -5,7 +5,7 @@ import Hello from './Hello';
 class App extends Component {
 	render() {
 		return (
-			<Hello name="SetState (is async)"/>
+			<Hello name="SetState (with function)"/>
 		);
 	}
 }

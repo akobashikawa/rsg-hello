@@ -1,4 +1,4 @@
-# Hello SetState (is async)
+# Hello SetState (with function)
 
 Print Hello.
 
@@ -6,30 +6,36 @@ Change state of a Component class.
 
 ---
 
-`setState()` is an async function. Use a callback to access to changed state.
+`setState()` is an async function. Instead an object, pass a function to access to previous state.
 
 ```javascript
 // NO:
 // this.setState({greeting: event.target.value});
-// console.log(this.state.greeting);
+// this.setState({counter: this.state.counter + 1});
 
-// YES: setSate is async, set next access via callback
-this.setState({greeting: event.target.value}, () => {
-	console.log(this.state.greeting);
-});
+// YES: setSate is async, use a function to access previous state
+this.setState({greeting: event.target.value});
+this.setState( (prevState, props) => ({
+	counter: prevState.counter + 1
+}) );
 ```
+
+https://facebook.github.io/react/docs/state-and-lifecycle.html#using-state-correctly
 
 ---
 
-`setState()` es una función asícrona. Use un callback para acceder al state que ha cambiado.  
+`setState()` es una función asícrona. En lugar de un objeto, pásele una función para acceder al state previo.  
 
 ```javascript
 // NO:
 // this.setState({greeting: event.target.value});
-// console.log(this.state.greeting);
+// this.setState({counter: this.state.counter + 1});
 
-// YES: setSate is async, set next access via callback
-this.setState({greeting: event.target.value}, () => {
-	console.log(this.state.greeting);
-});
+// YES: setSate is async, use a function to access previous state
+this.setState({greeting: event.target.value});
+this.setState( (prevState, props) => ({
+	counter: prevState.counter + 1
+}) );
 ```
+
+https://facebook.github.io/react/docs/state-and-lifecycle.html#using-state-correctly
