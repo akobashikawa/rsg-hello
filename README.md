@@ -1,4 +1,4 @@
-# Hello Handler
+# Hello Handler binding
 
 Print Hello.
 
@@ -6,39 +6,62 @@ Change state of a Component class.
 
 ---
 
-`Component` `state` is changed through `setState()`.
+A handler binding can be done in several ways:
 
-An event handlers can be defined with a method:
+## In constructor
 
 ```javascript
+constructor(props) {
+	//...
+	this.onChangeHandler = this.onChangeHandler.bind(this);
+}
+//...
 onChangeHandler(event) {
 	this.setState({greeting: event.target.value});
 }
 ```
 
-If handler require access to `state`, `props` or other Component's parts,
-it must be binded to the Component:
+## In line, binding a callback
 
 ```javascript
-this.onChangeHandler = this.onChangeHandler.bind(this);
+onChange={function(event) {
+	return this.setState({greeting: event.target.value});
+}.bind(this)}
+```
+
+## Same of previous but using ES6
+
+```javascript
+onChange={ event => this.setState({greeting: event.target.value}) }
 ```
 
 ---
 
-El `state` de un `Component` es cambiado mediante `setState()`.
+Un event handler se puede _bindear_ de varias maneras:
 
-Un event handler se puede definir en un método:
+## En el constructor
 
 ```javascript
+constructor(props) {
+	//...
+	this.onChangeHandler = this.onChangeHandler.bind(this);
+}
+//...
 onChangeHandler(event) {
 	this.setState({greeting: event.target.value});
 }
 ```
 
-Si el handler requiere acceso a `state`, `props` o alguna otra parte del Component,
-debe ser _bindeado_ al Component:
+## En línea, bindeando el callback
 
 ```javascript
-this.onChangeHandler = this.onChangeHandler.bind(this);
+onChange={function(event) {
+	return this.setState({greeting: event.target.value});
+}.bind(this)}
 ```
 
+## Igual que el ejemplo previo, pero usando ES6
+
+```javascript
+onChange={ event => this.setState({greeting: event.target.value}) }
+```
