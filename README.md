@@ -1,4 +1,4 @@
-# Hello SetState
+# Hello SetState (is async)
 
 Print Hello.
 
@@ -6,20 +6,30 @@ Change state of a Component class.
 
 ---
 
-`Component` `state` is changed through `setState()`.
-
-An event handlers can be defined inline:
+`setState()` is an async function. Use a callback to access to changed state.
 
 ```javascript
-onChange={event => this.setState({greeting: event.target.value})}
+// NO:
+// this.setState({greeting: event.target.value});
+// console.log(this.state.greeting);
+
+// YES: setSate is async, set next access via callback
+this.setState({greeting: event.target.value}, () => {
+	console.log(this.state.greeting);
+});
 ```
 
 ---
 
-El `state` de un `Component` es cambiado mediante `setState()`.
-
-Un event handler se puede definir en línea:
+`setState()` es una función asícrona. Use un callback para acceder al state que ha cambiado.  
 
 ```javascript
-onChange={event => this.setState({greeting: event.target.value})}
+// NO:
+// this.setState({greeting: event.target.value});
+// console.log(this.state.greeting);
+
+// YES: setSate is async, set next access via callback
+this.setState({greeting: event.target.value}, () => {
+	console.log(this.state.greeting);
+});
 ```
