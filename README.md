@@ -36,6 +36,7 @@ $ git checkout 01-hello-world
 - [09-hello-state](https://github.com/akobashikawa/rsg-hello/tree/09-hello-state)
 - [10-hello-setstate](https://github.com/akobashikawa/rsg-hello/tree/10-hello-setstate)
 - [10.1-hello-setstate-is-async](https://github.com/akobashikawa/rsg-hello/tree/10.1-hello-setstate-is-async)
+- [10.2-hello-setstate-with-function](https://github.com/akobashikawa/rsg-hello/tree/10.2-hello-setstate-with-function)
 - [11-hello-handler](https://github.com/akobashikawa/rsg-hello/tree/11-hello-handler)
 - [12-hello-refs](https://github.com/akobashikawa/rsg-hello/tree/12-hello-refs)
 - [13-hello-callback-refs](https://github.com/akobashikawa/rsg-hello/tree/13-hello-callback-refs)
