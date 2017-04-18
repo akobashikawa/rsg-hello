@@ -27,7 +27,7 @@ $ git checkout 01-hello-world
 - [00-initial](https://github.com/akobashikawa/rsg-hello/tree/00-initial)
 - [01-hello-world](https://github.com/akobashikawa/rsg-hello/tree/01-hello-world)
 - [02-hello-component](https://github.com/akobashikawa/rsg-hello/tree/02-hello-component)
-- [03-hello-component-imported](https://github.com/akobashikawa/rsg-hello/tree/03-hello-component-imported)
+- [03-hello-component-imported](https://github.com/akobashikawa/rsg-hello/tree/03-hello-component-imported) [published as example](https://akobashikawa.github.io/rsg-hello/)
 - [04-hello-component-class](https://github.com/akobashikawa/rsg-hello/tree/04-hello-component-class)
 - [05-hello-sub-component](https://github.com/akobashikawa/rsg-hello/tree/05-hello-sub-component)
 - [06-hello-sub-component-imported](https://github.com/akobashikawa/rsg-hello/tree/06-hello-sub-component-imported)
@@ -41,5 +41,3 @@ $ git checkout 01-hello-world
 - [11.1-hello-handler-binding](https://github.com/akobashikawa/rsg-hello/tree/11.1-hello-handler-binding)
 - [12-hello-refs](https://github.com/akobashikawa/rsg-hello/tree/12-hello-refs)
 - [13-hello-callback-refs](https://github.com/akobashikawa/rsg-hello/tree/13-hello-callback-refs)
-
-03-hello-component-imported is published in https://akobashikawa.github.io/rsg-hello/
